@@ -11,7 +11,8 @@ $ apt-get install bluez-tools
 ```
 2. Create a file to store the script somewhere in your home folder:
 ```sh
-$ nano ~/bluetooth-to-steam-linux.sh`
+$ touch ~/bluetooth-to-steam-linux.sh
+$ nano ~/bluetooth-to-steam-linux.sh
 ```
 3. Paste the following script into it (exit with Control + X)
 ```sh
@@ -29,11 +30,11 @@ esac
 ```
 4. Make it runnable:
 ```sh
-$ chmod +x ~/bluetooth-to-steam-linux.sh`
+$ chmod +x ~/bluetooth-to-steam-linux.sh
 ```
 5. Enter in your cronjob:
 ```sh
-$ crontab -e`
+$ crontab -e
 ```
 6. Select `nano` in case is your first time running this command
 7. Append to the end of the file. (this part is not working yet)
