@@ -38,5 +38,5 @@ $ crontab -e`
 6. Select `nano` in case is your first time running this command
 7. Append to the end of the file.
 ```sh
-* * * * * source ~/bluetooth-to-steam-linux.sh
+* * * * * source ~/bluetooth-to-steam-linux.sh >/dev/null 2>&1
 ```
