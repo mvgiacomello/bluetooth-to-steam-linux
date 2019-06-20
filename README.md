@@ -24,7 +24,7 @@ case $(bt-device -i "Wireless Controller" | grep "Connected" | grep -Eo '[0-1]+$
 		echo Steam detected, doing nothing
 	else
 		echo Steam not detected
-		DISPLAY=:0.0 steam -bigpicture
+		DISPLAY=:0.0 /usr/games/steam -bigpicture
     fi
 esac
 ```
@@ -37,7 +37,7 @@ $ chmod +x ~/bluetooth-to-steam-linux
 $ crontab -e
 ```
 6. Select `nano` in case is your first time running this command
-7. Append to the end of the file. (this part is not working yet)
+7. Append to the end of the file.
 ```sh
 * * * * * /bin/sh ~/bluetooth-to-steam-linux.sh >/dev/null 2>&1
 ```
