@@ -37,7 +37,7 @@ $ chmod +x ~/bluetooth-to-steam-linux
 $ crontab -e
 ```
 6. Select `nano` in case is your first time running this command
-7. Append to the end of the file.
+7. Append to the end of the file. Note, replace <user> with your username.
 ```sh
-* * * * * /bin/sh ~/bluetooth-to-steam-linux.sh >/dev/null 2>&1
+* * * * * /bin/sh /home/<user>/bluetooth-to-steam-linux.sh >/dev/null 2>&1
 ```
