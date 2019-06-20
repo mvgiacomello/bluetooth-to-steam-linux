@@ -41,3 +41,6 @@ $ crontab -e
 ```sh
 * * * * * /bin/sh /home/<user>/bluetooth-to-steam-linux.sh >/dev/null 2>&1
 ```
+
+## Notes
+I only tested this on my own computer running Linux Mint 19.
